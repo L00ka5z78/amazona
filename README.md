@@ -51,3 +51,13 @@ c. Create git repository.
 10. Create product and rating component
     a. create rating and product component
     b. use raring component in product component
+
+11. Create product details screen
+    a. fetch product from backend
+    b. create 3 columns for image, info and action
+
+12. Create Loading and Message component
+    a. create loading component
+    b. use spinner component
+    c. create message component
+    d. create utils.js to delete getError function
