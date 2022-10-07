@@ -61,3 +61,9 @@ c. Create git repository.
     b. use spinner component
     c. create message component
     d. create utils.js to delete getError function
+
+13. Implement add to cart
+    a. create react conext
+    b. define reducer
+    c. create store prowider
+    d. implement add to cart button click handler
