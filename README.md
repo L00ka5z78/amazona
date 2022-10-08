@@ -73,7 +73,39 @@ c. Create git repository.
     b. display items list
     c. create action column
 
+<!-- !!cart screen doesnt work properly : -->
+
+<!-- Warning: Each child in a list should have a unique "key" prop. Check the render method of `CartScreen`
+ SHOWS ONLY LAST ITEM FROM CART LIST NOT ALL OF THEM WHEN YOU BUY DIFFERENT ITEMS. unique key is defined in line 35 isnt it? So i have no idea how to fix this. i guess code is ok, HELP NEEDED. CANT FIGURE IT OUT ON MY OWN.
+
+What i tried:
+
+      1.  change the version of react-bootstrap, router-dom etc.. didnt help
+      2.  rewrite the whole <ListGroup> section. didnt help
+      3.  checked the WHOLE code for typos. Probably no typos, but who knows. -->
+
 15. Complete cart screen
     a. click handler for remove item
     b. click handler for remove item
-    c. click handler for checkout 2.42film
+    c. click handler for checkout
+
+16. Create signing in screen
+    a. create sign in form
+    b. add email and password
+    c. add sign in button
+
+17. connect to mongodb database
+    a. create atlas mongodb database
+    b. create local mongodb database
+    c. npm install mongoogse
+    d. connect to mongodb databse
+
+18. seed sample data
+    a. create product model
+    b. create user model
+    c. create seed route
+    d. use route in server.js
+    e. seed sample product
+
+<!-- IMPORTANT to run locally mongodb you have to open cmd , go to mongodb direcory find bin directory and run mongod.
+i wrote script in package.json "start-mongo": "cd/ d/ **mongodb path**mongo.exe" then run compass and then it works. -->
