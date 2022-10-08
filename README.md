@@ -67,3 +67,13 @@ c. Create git repository.
     b. define reducer
     c. create store prowider
     d. implement add to cart button click handler
+
+14. create cart screen
+    a. create 2 columns
+    b. display items list
+    c. create action column
+
+15. Complete cart screen
+    a. click handler for remove item
+    b. click handler for remove item
+    c. click handler for checkout 2.42film
