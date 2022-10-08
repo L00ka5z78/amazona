@@ -75,8 +75,8 @@ function ProductScreen() {
             type: 'CART_ADD_ITEM',
             payload: { ...product, quantity },
         });
-        navigate('/cart')
-    }
+        navigate('/cart');
+    };
 
 
     return loading ? (
