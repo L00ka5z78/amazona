@@ -13,6 +13,20 @@ const productSchema = new mongoose.Schema(      //accepts 2 params: fields of sc
         rating: { type: Number, required: true },
         numReviews: { type: Number, required: true },
     },
+
+    // {
+    //     name: { type: String, unique: true },
+    //     slug: { type: String, unique: true },
+    //     image: { type: String },
+    //     brand: { type: String },
+    //     category: { type: String },
+    //     description: { type: String },
+    //     price: { type: Number },
+    //     countInStock: { type: Number },
+    //     rating: { type: Number },
+    //     numReviews: { type: Number },
+    // },
+
     {
         timestamps: true,
     }

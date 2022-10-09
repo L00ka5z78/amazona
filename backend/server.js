@@ -1,4 +1,5 @@
 import express from "express";
+import path from 'path';
 import data from './data.js';
 import mongoose from "mongoose";
 import dotenv from 'dotenv';
@@ -11,14 +12,14 @@ mongoose
     .then(() => {
         console.log('Database connected!')
     })
-    .catch((er) => {
+    .catch((err) => {
         console.log(err.message);
     });
 
 
 
 const app = express();
-app.use('/api/seed', seedRouter);
+app.use("/api/seed", seedRouter);
 app.use('/api/products', productRouter);
 
 
