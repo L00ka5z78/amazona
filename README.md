@@ -2,76 +2,85 @@
 
 # Steps
 
-a. Install tools (eslint, prettier, es7 react, redux..)
-b. Create React app.
-c. Create git repository.
+1. Install tools (eslint, prettier, es7 react, redux..)
+2. Create React app.
+3. Create git repository.
 
 4. List of products
 
-   a. create products array
-   b. add products images
-   c. render products
-   d. style products
+   1. create products array
+   2. add products images
+   3. render products
+   4. style products
 
 5. Add routes
-   a. npm i react-router-dom
-   b. create route for home screen
-   c. create router for product screen
+
+   1. npm i react-router-dom
+   2. create route for home screen
+   3. create router for product screen
 
 6. Create Node.js server
-   a. run npm init in root folder
-   b. Update package.json set type: module
-   c. Add .js to imports
-   d. install express
-   e. create server.js
-   f. add start command as node backend/server.js
-   g. create route for / return backend is ready
-   h. move products.js from frontend to backend
-   i. create route for /api products
-   j. return products
-   k. run npm start
+
+   1. run npm init in root folder
+   2. Update package.json set type: module
+   3. Add .js to imports
+   4. install express
+   5. create server.js
+   6. add start command as node backend/server.js
+   7. create route for / return backend is ready
+   8. move products.js from frontend to backend
+   9. create route for /api products
+   10. return products
+   11. run npm start
 
 7. Fetch products from backend
-   a. set proxy in package.json
-   b. npm install axios
-   c. use state hook
-   d. use effect hook
-   e. use reducer hook
+
+   1. set proxy in package.json
+   2. npm install axios
+   3. use state hook
+   4. use effect hook
+   5. use reducer hook
 
 8. Manage state by reducer hook
-   a. define reducer
-   b. update fetch data
-   c. get state from use reducer
-   d. setting the "loading..." while loading when network is slow.
+
+   1. define reducer
+   2. update fetch data
+   3. get state from use reducer
+   4. setting the "loading..." while loading when network is slow.
 
 9. Add bootstrap UI framework
-   a. npm i react-bootstrap bootstrap
-   b. update App.js
+
+   1. npm i react-bootstrap bootstrap
+   2. update App.js
 
 10. Create product and rating component
-    a. create rating and product component
-    b. use raring component in product component
+
+    1. create rating and product component
+    2. use raring component in product component
 
 11. Create product details screen
-    a. fetch product from backend
-    b. create 3 columns for image, info and action
+
+    1. fetch product from backend
+    2. create 3 columns for image, info and action
 
 12. Create Loading and Message component
-    a. create loading component
-    b. use spinner component
-    c. create message component
-    d. create utils.js to delete getError function
+
+    1. create loading component
+    2. use spinner component
+    3. create message component
+    4. create utils.js to delete getError function
 
 13. Implement add to cart
-    a. create react conext
-    b. define reducer
-    c. create store prowider
-    d. implement add to cart button click handler
+
+    1. create react conext
+    2. define reducer
+    3. create store prowider
+    4. implement add to cart button click handler
 
 14. create cart screen
-    a. create 2 columns
-    b. display items list
-    c. create action column
+    1. create 2 columns
+    2. display items list
+    3. create action column
 
 <!-- !!cart screen doesnt work properly : -->
 
@@ -85,27 +94,30 @@ What i tried:
       3.  checked the WHOLE code for typos. Probably no typos, but who knows. -->
 
 15. Complete cart screen
-    a. click handler for remove item
-    b. click handler for remove item
-    c. click handler for checkout
+
+    1. click handler for remove item
+    2. click handler for remove item
+    3. click handler for checkout
 
 16. Create signing in screen
-    a. create sign in form
-    b. add email and password
-    c. add sign in button
+
+    1. create sign in form
+    2. add email and password
+    3. add sign in button
 
 17. connect to mongodb database
-    a. create atlas mongodb database
-    b. create local mongodb database
-    c. npm install mongoogse
-    d. connect to mongodb databse
+
+    1. create atlas mongodb database
+    2. create local mongodb database
+    3. npm install mongoogse
+    4. connect to mongodb databse
 
 18. seed sample data
-    a. create product model
-    b. create user model
-    c. create seed route
-    d. use route in server.js
-    e. seed sample product
+    1. create product model
+    2. create user model
+    3. create seed route
+    4. use route in server.js
+    5. seed sample product
 
 <!-- IMPORTANT to run locally mongodb you have to open cmd , go to mongodb direcory find bin directory and run mongod.
 i wrote script in package.json "start-mongo": "cd/ d/ **mongodb path**mongo.exe" then run compass and then it works. -->

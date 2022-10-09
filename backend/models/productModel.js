@@ -14,11 +14,11 @@ const productSchema = new mongoose.Schema(      //accepts 2 params: fields of sc
         numReviews: { type: Number, required: true },
     },
     {
-        timestamps: true
+        timestamps: true,
     }
 
 );
 
-const Product = mongoose.model('Product', productSchema)
+const Product = mongoose.model('Product', productSchema);
 
 export default Product;
