@@ -135,6 +135,12 @@ i wrote script in package.json "start-mongo": "cd/ d/ **mongodb path**mongo.exe"
        3.define generate token
 
 21. complete sign in
+
     1. handle submit action
     2. save token in store and local storage
     3. show user name in header
+
+22. create shipping screen
+    1. create form input
+    2. handle save shipping adress
+    3. add checkout wizard bar
