@@ -121,3 +121,8 @@ What i tried:
 
 <!-- IMPORTANT to run locally mongodb you have to open cmd , go to mongodb direcory find bin directory and run mongod. Then go to backend directory and run script. npm run start-mongo.
 i wrote script in package.json "start-mongo": "cd/ d/ **mongodb path**mongo.exe" then run compass and then it works. -->
+
+19. seed smple users
+    1. create user model
+    2. seed sample users
+    3. create user routes
