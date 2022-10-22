@@ -119,5 +119,5 @@ What i tried:
     4. use route in server.js
     5. seed sample product
 
-<!-- IMPORTANT to run locally mongodb you have to open cmd , go to mongodb direcory find bin directory and run mongod.
+<!-- IMPORTANT to run locally mongodb you have to open cmd , go to mongodb direcory find bin directory and run mongod. Then go to backend directory and run script. npm run start-mongo.
 i wrote script in package.json "start-mongo": "cd/ d/ **mongodb path**mongo.exe" then run compass and then it works. -->

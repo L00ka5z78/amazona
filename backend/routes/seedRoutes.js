@@ -12,4 +12,3 @@ seedRouter.get('/', async (req, res) => {
 });
 
 export default seedRouter;
-//3.16film
