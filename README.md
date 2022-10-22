@@ -141,6 +141,23 @@ i wrote script in package.json "start-mongo": "cd/ d/ **mongodb path**mongo.exe"
     3. show user name in header
 
 22. create shipping screen
+
     1. create form input
     2. handle save shipping adress
     3. add checkout wizard bar
+
+23. create sign up screen
+
+    1. create input forms
+    2. handle submit
+    3. create backend api
+
+24. Implement select payment method screen
+
+    1. create inputs forms
+    2. handle sumit
+
+25. create place order screen
+    1. show cart items payment and adress
+    2. show place order action
+    3. create order api
