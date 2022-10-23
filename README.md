@@ -168,7 +168,19 @@ i wrote script in package.json "start-mongo": "cd/ d/ **mongodb path**mongo.exe"
     1. handle place order action
     2. create palce order api
 
-27. crete order screen
+27. create order screen
+
     1. create backend api for order/:id
     2. fetch order api in frontend
     3. show order information in 2 columns
+
+28. Pay order by paypal
+    1. generate paypal client id
+    2. create api to return client id
+    3. install react paypal js
+    4. use paypalScriptProvider in order screen
+    5. use paypalScriptReducer in order screen
+    6. implement loadPaypalScript function
+    7. render paypal button
+    8. imlement onAproove payment function
+    9. create pay order api in backend
