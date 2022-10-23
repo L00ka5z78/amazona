@@ -158,6 +158,17 @@ i wrote script in package.json "start-mongo": "cd/ d/ **mongodb path**mongo.exe"
     2. handle sumit
 
 25. create place order screen
+
     1. show cart items payment and adress
     2. show place order action
     3. create order api
+
+26. implement place order action
+
+    1. handle place order action
+    2. create palce order api
+
+27. crete order screen
+    1. create backend api for order/:id
+    2. fetch order api in frontend
+    3. show order information in 2 columns
