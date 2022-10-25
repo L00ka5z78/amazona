@@ -187,6 +187,23 @@ i wrote script in package.json "start-mongo": "cd/ d/ **mongodb path**mongo.exe"
     9. create pay order api in backend
 
 29. display order history
+
     1. create order screen
     2. create order history api
     3. use api in the frontend
+
+30. Create profile screen
+
+    1. get user info from content
+    2. show user information
+    3. create user update ai
+    4. update user info
+
+31. PUBLISH TO HEROKU
+    1. create and config node project
+    2. server build folder in frontend folder
+    3. create heroku account
+    4. connect it to github
+    5. create mongodb atlas database
+    6. set database connection in heroku env variables
+    7. commit and push
