@@ -211,3 +211,7 @@ i wrote script in package.json "start-mongo": "cd/ d/ **mongodb path**mongo.exe"
 
     <!-- problem with deploying to heroku. cant figure it out which database i can use to make it works.
     this i use now looks that is somehow ok, but we will see what will be in the future work... -->
+
+32. add sidebar and search box
+    1. add sidebar
+    2. add search box

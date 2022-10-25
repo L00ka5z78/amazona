@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "1. Install tools (eslint, prettier, es7 react, redux..)\r 2. Create React app.\r 3. Create git repository.",
   "main": "index.js",
-  "engines": {
-    "node": "18.x"
-  },
   "scripts": {
     "build": "cd backend && npm install && cd ../frontend && npm install &&npm run build",
     "start": "node backend/server.js",
