@@ -200,10 +200,14 @@ i wrote script in package.json "start-mongo": "cd/ d/ **mongodb path**mongo.exe"
     4. update user info
 
 31. PUBLISH TO HEROKU
+
     1. create and config node project
     2. server build folder in frontend folder
     3. create heroku account
     4. connect it to github
     5. create mongodb atlas database
-    6. set database connection in heroku env variables
+    6. set database connection in heroku env variables // 5.35 connected to db, but server error
     7. commit and push
+
+    <!-- problem with deploying to heroku. cant figure it out which database i can use to make it works.
+    this i use now looks that is somehow ok, but we will see what will be in the future work... -->
