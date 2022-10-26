@@ -31,6 +31,7 @@ const reducer = (state, action) => {
 
 
 
+
 function ProductScreen() {
     const navigate = useNavigate();
     const params = useParams();
