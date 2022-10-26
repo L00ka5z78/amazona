@@ -213,5 +213,8 @@ i wrote script in package.json "start-mongo": "cd/ d/ **mongodb path**mongo.exe"
     this i use now looks that is somehow ok, but we will see what will be in the future work... -->
 
 32. add sidebar and search box
+
     1. add sidebar
     2. add search box
+
+    lesson33 stucked. nie zdeplojowany. nie przechodzi z shippingu do place order... sciagnij repo z ghub i probuj od tego miejsca
