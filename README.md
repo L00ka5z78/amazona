@@ -217,4 +217,8 @@ i wrote script in package.json "start-mongo": "cd/ d/ **mongodb path**mongo.exe"
     1. add sidebar
     2. add search box
 
+<<<<<<< HEAD
     lesson33 stucked. not deployed. cant go from shipping to the next section. it works only when i refresh the page. strange.
+=======
+    lesson33 stucked. nie zdeplojowany. nie przechodzi z shippingu do place order... sciagnij repo z ghub i probuj od tego miejsca
+>>>>>>> 786d6c2ed2464edea7139980d514992887e17d25
