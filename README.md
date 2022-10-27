@@ -221,3 +221,8 @@ i wrote script in package.json "start-mongo": "cd/ d/ **mongodb path**mongo.exe"
 the script in root package.json would be:
 
 cd backend && npm install && cd .. && cd frontend && npm install &&npm run build thats works for me instead of this cd backend && npm install && cd ../frontend && npm install &&npm run build.  -->
+
+33. Create search screen
+    1. show filters
+    2. create api for searching products
+    3. display results
