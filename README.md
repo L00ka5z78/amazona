@@ -223,6 +223,18 @@ the script in root package.json would be:
 cd backend && npm install && cd .. && cd frontend && npm install &&npm run build thats works for me instead of this cd backend && npm install && cd ../frontend && npm install &&npm run build.  -->
 
 33. Create search screen
+
     1. show filters
     2. create api for searching products
     3. display results
+
+    <!-- search box is created, but do not loading data. just rotating spinner. code looks ok.  -->
+
+34. create admin menu
+
+    1. define protected route component
+    2. define admin route component
+    3. add menu for admin in header
+
+    Known issue per today is that search engine doesnt work properly. After clicking search button instead of loading it shows
+    rotating spinner like its loading. I think code looks all right, and i have no clue why it is like that
