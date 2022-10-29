@@ -11,7 +11,7 @@ import MessageBox from '../components/MessageBox';
 import Rating from '../components/Rating';
 import { getError } from '../utils';
 import Product from '../components/Product';
-import { LinkContainer } from 'react-router-bootstrap';
+import LinkContainer from 'react-router-bootstrap/LinkContainer';       // byl w {} bez dopisuna koncu
 
 const reducer = (state, action) => {
     switch (action.type) {

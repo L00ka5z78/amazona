@@ -220,8 +220,7 @@ i wrote script in package.json "start-mongo": "cd/ d/ **mongodb path**mongo.exe"
 <!-- lesson33 stucked. not deployed. cant go from shipping to the next section. it works only when i refresh the page. strange
 the script in root package.json would be:
 
-cd backend && npm install && cd .. && cd frontend && npm install &&npm run build thats works for me instead of this cd backend && npm install && cd ../frontend && npm install &&npm run build.  -->
-
+cd backend && npm install && cd .. && cd frontend && npm install &&npm run build thats works for me instead of this cd backend && npm install && cd ../frontend && npm install &&npm run build.
 33. Create search screen
 
     1. show filters
